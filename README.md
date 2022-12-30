@@ -14,7 +14,7 @@ interface CryptoAPI {
 
 
 ```sh
- private fun getData() {
+ private fun getData(BASE_URL:String) {
 
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
