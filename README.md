@@ -7,7 +7,7 @@ Coroutine ile verileri alma örneği.
 ```sh
 interface CryptoAPI {
     @GET("https://maps.googleapis.com/")
-    suspend fun getData(): Response<List<CyriptoModel>>
+    suspend fun getData(): Response<List<PlaceModel>>
 }
 
 ```
